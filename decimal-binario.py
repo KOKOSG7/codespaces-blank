@@ -15,7 +15,8 @@ while fin == 0:
         binario = str(resto) + binario
     resultado = binario
     print(resultado)
-    cont = input("Desea hacer otro calculo? Y/N: ")
+    input1 = input("Desea hacer otro calculo? Y/N: ")
+    cont = input1.upper()
     if cont == "Y":
         print("------------------------------")
     elif cont == "N":
